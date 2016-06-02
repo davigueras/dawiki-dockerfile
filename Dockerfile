@@ -6,3 +6,4 @@ VOLUME /wiki
 WORKDIR /wiki
 CMD ["gollum", "--port", "80", "--live-preview", "--h1-title", "--allow-uploads", "page"]
 EXPOSE 80
+
